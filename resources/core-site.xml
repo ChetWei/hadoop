@@ -20,13 +20,13 @@
 
     <property>
         <name>fs.defaultFS</name>
-        <value>hdfs://hadoop-master.wei.com:9000</value> ##指定namenode运行的机器
+        <value>hdfs://hadoop-master.wei.com:9000</value> 
     </property>
 
 
 	<property>
 		<name>hadoop.tmp.dir</name>
-		<value>/opt/moudles/hadoop-2.6.0-cdh5.11.2/data/tmp</value> #自定义创建的目录data/tmp
+		<value>/opt/moudles/hadoop-2.6.0-cdh5.11.2/data/tmp</value> 
 	</property>
 
 	<!-- hdsf删除文件的保存时间默认保存时间为0，单位秒 -->

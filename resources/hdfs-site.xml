@@ -19,11 +19,11 @@
 <configuration>
 	 <property>
 			<name>dfs.replication</name>
-			<value>1</value>  ##伪分布式仅保存一份数据
+			<value>1</value>  
 	</property>
 	   
 	<property>
-		<name>dfs.namenode.http-address</name> #让宿主机访问的地址
+		<name>dfs.namenode.http-address</name> 
 		<value>hadoop-master.wei.com:50070</value>
 	</property>
 </configuration>
