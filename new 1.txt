@@ -1,0 +1,9 @@
+Description	Resource	Path	Location	Type
+The container 'Maven Dependencies' references non existing library 'E:\softwares\apache-maven-3.5.4-bin\respositorys\org\apache\hadoop\hadoop-client\2.6.0-cdh5.11.2\hadoop-client-2.6.0-cdh5.11.2.jar'	hadoop		Build path	Build Path Problem
+
+mvn -X clean install
+
+maven update project
+
+[root@hadoop-master hadoop-2.6.0-cdh5.11.2]# bin/hadoop jar /opt/data/wordcount.jar /user/root/input /user/root/op
+
